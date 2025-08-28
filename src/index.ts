@@ -1,6 +1,9 @@
-function main(): void {
-  const greeting: string = 'Hello from TypeScript!';
-  console.log(greeting);
+export function getGreeting(name: string = 'TypeScript'): string {
+  return `Hello from ${name}!`;
 }
 
-main();
+if (require.main === module) {
+  // Runtime entry point
+   
+  console.log(getGreeting());
+}

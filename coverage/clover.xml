@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1756392412188" clover="3.2.0">
+  <project timestamp="1756392412188" name="All files">
+    <metrics statements="11" coveredstatements="4" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1" elements="16" coveredelements="6" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
+    <file name="index.ts" path="/Users/bellakoletic/projects/hi/src/index.ts">
+      <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+    </file>
+    <file name="main.ts" path="/Users/bellakoletic/projects/hi/src/main.ts">
+      <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
