@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { Home, LineChart, Settings } from 'lucide-react';
+import { Home, LineChart, Settings, LogIn } from 'lucide-react';
 
 const nav = [
   { href: '/', label: 'Overview', icon: Home },
   { href: '/reports', label: 'Reports', icon: LineChart },
   { href: '/settings', label: 'Settings', icon: Settings },
+  { href: '/login', label: 'Login', icon: LogIn },
 ];
 
 export function Sidebar() {
